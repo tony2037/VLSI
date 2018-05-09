@@ -1,0 +1,10 @@
+1525502395 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/controller.v
+1525420859 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/top.v
+1525500895 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/output_memory.v
+1525414450 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/mux.v
+1525420542 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/grayscale.v
+1524645749 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/top_syn_tb.v
+1525414256 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/input_memory.v
+1525512329 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/err_dif.v
+1525512690 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/top_tb.v
+1525414056 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/system.v

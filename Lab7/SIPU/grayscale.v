@@ -1,0 +1,50 @@
+module grayscale(
+  input clk,
+  input rst,
+  input en,
+  input [23:0] d,
+  output reg [7:0] q
+  );
+ 
+/* 
+7 y = 0.3125r + 0.5625g + 0.125b 
+8 0.3125 = 0.25 + 0.0625 = 1/4 + 1/16 
+9 0.5625 = 0.5 + 0.0625 = 1/2 + 1/16 
+10 0.125 = 1/8 
+11  
+12 */  
+ 
+wire [11:0] r;
+wire [11:0] g;
+wire [11:0] b;
+assign r = { 4'b0000, d[7:0] };
+assign g = { 4'b0000, d[15:8] };
+assign b = { 4'b0000, d[23:16]};
+
+ 
+wire [11:0] y_r;
+wire [11:0] y_g;
+wire [11:0] y_b;
+assign y_r=(r<<2)+r;
+assign y_g = (g<<3) + g;
+assign y_b = (b << 1);
+
+wire [11:0] total; 
+assign total = y_r + y_g + y_b; 
+
+
+
+
+always @(posedge rst or posedge clk)begin
+  if(rst) q <= 8'b0;
+  else begin
+    if(en)
+      q <= total[11:4];
+  end
+
+
+
+
+end
+
+endmodule

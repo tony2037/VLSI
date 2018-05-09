@@ -1,0 +1,7 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 {/home/user2/vlsi18/vlsi1840/Lab7/SIPU/top_tb.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/top_tb"
+wvResizeWindow -win $_nWave1 0 22 1920 1018
+wvGetSignalOpen -win $_nWave1
+wvExit

@@ -1,0 +1,96 @@
+//*************************************************                       
+//** Author: LPHP Lab                               
+//** Project: Simple image processor
+//**    			- Top
+//*************************************************
+
+/////////////////////////////////////////////////////////
+//													   //
+//               Do not modify code below              //
+//													   //
+/////////////////////////////////////////////////////////
+
+`include "input_memory.v"
+`include "grayscale.v"
+`include "output_memory.v"
+`include "controller.v"
+`include "err_dif.v"
+
+module top(clk,
+           rst,
+           done);
+
+  input clk;
+  input rst;
+  output done;
+
+  wire [23:0]  in_mem_data;
+  wire [7:0]   gray_data;
+  wire [7:0]   mux_data;
+  wire [7:0]   err_dif_data;
+  wire [7:0]   out_mem_data;
+  wire         en_in_mem;
+  wire [31:0]  in_mem_addr;
+  wire         en_gray;
+  wire         mux_sel;
+  wire         en_out_mem;
+  wire [31:0]  out_mem_addr;
+  wire         en_err_dif;
+  wire [2:0]   err_dif_addr;
+  wire         done;  
+  wire         out_mem_read;
+  wire         out_mem_write;
+  
+  
+assign mux_data=(mux_sel)?err_dif_data:gray_data;
+  
+  input_memory in_mem(.clk(clk),
+                      .en(en_in_mem),
+                      .addr(in_mem_addr),
+                      .q(in_mem_data)
+					  );
+
+  grayscale gray(.clk(clk),
+                 .rst(rst),
+                 .en(en_gray),
+                 .d(in_mem_data),
+                 .q(gray_data)
+				 );
+	
+
+  output_memory out_mem(.clk(clk),
+                        .rst(rst),
+                        .en(en_out_mem),
+						.en_r(out_mem_read),
+						.en_w(out_mem_write),
+                        .addr(out_mem_addr),
+                        .d(mux_data),
+						.q(out_mem_data)
+						);
+  err_dif ed(.clk(clk),
+	     .rst(rst),
+	     .en(en_err_dif),
+	     .addr(err_dif_addr),
+	     .d(out_mem_data),
+	     .q(err_dif_data)
+	     );
+			 
+			 
+			 
+			 
+  controller ctrl(.clk(clk),
+                  .rst(rst),
+                  .en_in_mem(en_in_mem),
+                  .in_mem_addr(in_mem_addr),
+                  .en_gray(en_gray),
+		  .mux_sel(mux_sel),
+                  .en_out_mem(en_out_mem),
+		  .out_mem_read(out_mem_read),
+		  .out_mem_write(out_mem_write),
+                  .out_mem_addr(out_mem_addr),
+		  .en_err_dif(en_err_dif),
+		  .err_dif_addr(err_dif_addr),
+		  .done(done)
+                  );
+				  
+endmodule

@@ -1,0 +1,71 @@
+s1(04May2018:14:06:01):  ncverilog system.v 
+s2(04May2018:14:06:35):  ncverilog system.v 
+s3(04May2018:14:07:37):  ncverilog system.v 
+s4(04May2018:14:08:04):  ncverilog output_memory.v 
+s5(04May2018:14:09:44):  ncverilog output_memory.v 
+s6(04May2018:14:10:03):  ncverilog controller.v 
+s7(04May2018:14:10:12):  ncverilog err_dif.v 
+s8(04May2018:14:10:21):  ncverilog grayscale.v 
+s9(04May2018:14:10:35):  ncverilog input_memory.v 
+s10(04May2018:14:10:58):  ncverilog input_memory.v 
+s11(04May2018:14:11:11):  ncverilog mux.v 
+s12(04May2018:14:11:33):  ncverilog mux.v 
+s13(04May2018:14:12:14):  ncverilog mux.v 
+s14(04May2018:14:12:31):  ncverilog mux.v 
+s15(04May2018:14:12:54):  ncverilog mux.v 
+s16(04May2018:14:13:55):  ncverilog mux.v 
+s17(04May2018:14:14:05):  ncverilog mux.v 
+s18(04May2018:14:14:11):  ncverilog mux.v 
+s19(04May2018:14:14:28):  ncverilog output_memory.v 
+s20(04May2018:14:14:44):  ncverilog system.v 
+s21(04May2018:14:16:33):  ncverilog top_syn_tb.v 
+s22(04May2018:14:19:44):  ncverilog top_tb.v 
+s23(04May2018:14:20:49):  ncverilog top_tb.v 
+s24(04May2018:14:23:24):  ncverilog top_tb.v 
+s25(04May2018:14:23:50):  ncverilog top_tb.v +define+FSDB +access+r 
+s26(04May2018:14:25:04):  ncverilog top_tb.v +define+FSDB +access+r 
+s27(04May2018:14:29:05):  ncverilog top_tb.v +define+FSDB +access+r 
+s28(04May2018:14:29:42):  ncverilog top_tb.v +define+FSDB +access+r 
+s29(04May2018:14:36:06):  ncverilog err_dif.v 
+s30(04May2018:14:56:33):  ncverilog top_tb.v 
+s31(04May2018:15:33:40):  ncverilog top_tb.v +define+FSDB +access+r 
+s32(04May2018:15:50:10):  ncverilog top_tb.v +define+FSDB +access+r 
+s33(04May2018:15:54:11):  ncverilog grayscale.v 
+s34(04May2018:15:55:29):  ncverilog grayscale.v 
+s35(04May2018:15:55:44):  ncverilog grayscale.v 
+s36(04May2018:15:55:52):  ncverilog top_tb.v 
+s37(04May2018:16:00:31):  ncverilog top_tb.v 
+s38(04May2018:16:01:02):  ncverilog top_tb.v 
+s39(04May2018:16:01:16):  ncverilog top.v 
+s40(04May2018:16:02:31):  ncverilog top.v 
+s41(04May2018:16:03:06):  ncverilog top.v 
+s42(04May2018:16:04:01):  ncverilog top.v 
+s43(04May2018:16:04:17):  ncverilog top.v 
+s44(04May2018:16:06:43):  ncverilog top_tb.v 
+s45(04May2018:16:12:18):  ncverilog top_tb.v +define+FSDB +access+r 
+s46(04May2018:16:29:40):  ncverilog top_tb.v +define+FSDB +access+r 
+s47(04May2018:16:46:26):  ncverilog top_tb.v +define+FSDB +access+r 
+s48(04May2018:17:46:49):  ncverilog controller.v 
+s49(04May2018:17:47:27):  ncverilog top_tb.v +define+FSDB +access+r 
+s50(04May2018:17:59:37):  ncverilog top_tb.v +define+FSDB +access+r 
+s51(04May2018:19:15:36):  ncverilog top_tb.v +define+FSDB +access+r 
+s52(04May2018:19:26:25):  ncverilog top_tb.v +define+FSDB +access+r 
+s53(04May2018:19:44:42):  ncverilog top_tb.v +define+FSDB +access+r 
+s54(05May2018:14:15:21):  ncverilog output_memory.v 
+s55(05May2018:14:15:36):  ncverilog top_tb.v 
+s56(05May2018:14:15:53):  ncverilog top_tb.v +define+FSDB +access+r 
+s57(05May2018:14:34:34):  ncverilog top_tb.v +define+FSDB +access+r 
+s58(05May2018:14:38:31):  ncverilog controlloer.v 
+s59(05May2018:14:38:48):  ncverilog controller.v 
+s60(05May2018:14:39:59):  ncverilog controller.v 
+s61(05May2018:14:40:06):  ncverilog top_tb.v +define+FSDB +access+r 
+s62(05May2018:14:47:51):  ncverilog top_tb.v +define+FSDB +access+r 
+s63(05May2018:14:51:17):  ncverilog top_tb.v +define+FSDB +access+r 
+s64(05May2018:15:25:40):  ncverilog err_dif.v 
+s65(05May2018:15:26:06):  ncverilog top_tb.v +define+FSDB +access+r 
+s66(05May2018:17:25:36):  ncverilog err_dif.v 
+s67(05May2018:17:25:57):  ncverilog top_tb.v +define+FSDB +access+r 
+s68(05May2018:17:29:59):  ncverilog top_tb.v +define+FSDB +access+r 
+s69(05May2018:17:31:33):  ncverilog top_tb.v +define+FSDB +access+r 
+s70(05May2018:17:36:50):  ncverilog top_tb.v +defin 
+s71(05May2018:17:38:32):  ncverilog top_tb.v +define+FSDB +access+r 

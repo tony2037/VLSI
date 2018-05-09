@@ -1,0 +1,45 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on May 05, 2018 at 17:38:32 CST
+ncverilog
+	top_tb.v
+	+define+FSDB
+	+access+r
+file: top_tb.v
+	module worklib.top_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.err_dif:v <0x263e4488>
+			streams:   1, words:  4517
+		worklib.top_tb:v <0x2e7e6bef>
+			streams:   6, words:  6330
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  7       7
+		Registers:               49      49
+		Scalar wires:            10       -
+		Vectored wires:          15       -
+		Always blocks:           13      13
+		Initial blocks:           3       3
+		Cont. assignments:        6       8
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.top_tb:v
+Loading snapshot worklib.top_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'top_tb.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+Simulation complete via $finish(1) at time 72000025 NS + 0
+./top_tb.v:78       $finish;		
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on May 05, 2018 at 17:39:02 CST  (total: 00:00:30)
