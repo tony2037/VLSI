@@ -1,12 +1,6 @@
-top.v
-/home/user2/vlsi18/vlsi1840/Lab7/SIPU/top.v
+top_syn.v
+/home/user2/vlsi18/vlsi1812/Lab7/SIPU/top_syn.v
 input_memory.v
-/home/user2/vlsi18/vlsi1840/Lab7/SIPU/input_memory.v
-grayscale.v
-/home/user2/vlsi18/vlsi1840/Lab7/SIPU/grayscale.v
+/home/user2/vlsi18/vlsi1812/Lab7/SIPU/input_memory.v
 output_memory.v
-/home/user2/vlsi18/vlsi1840/Lab7/SIPU/output_memory.v
-controller.v
-/home/user2/vlsi18/vlsi1840/Lab7/SIPU/controller.v
-err_dif.v
-/home/user2/vlsi18/vlsi1840/Lab7/SIPU/err_dif.v
+/home/user2/vlsi18/vlsi1812/Lab7/SIPU/output_memory.v

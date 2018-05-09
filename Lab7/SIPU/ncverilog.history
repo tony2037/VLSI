@@ -69,3 +69,8 @@ s68(05May2018:17:29:59):  ncverilog top_tb.v +define+FSDB +access+r
 s69(05May2018:17:31:33):  ncverilog top_tb.v +define+FSDB +access+r 
 s70(05May2018:17:36:50):  ncverilog top_tb.v +defin 
 s71(05May2018:17:38:32):  ncverilog top_tb.v +define+FSDB +access+r 
+s72(09May2018:13:02:09):  ncverilog top_tb.v 
+s73(09May2018:13:14:51):  ncverilog top_tb.v 
+s74(09May2018:13:22:11):  ncverilog top_syn_tb.v 
+s75(09May2018:13:23:45):  ncverilog top_syn_tb.v 
+s76(09May2018:13:24:02):  ncverilog top_syn_tb.v 

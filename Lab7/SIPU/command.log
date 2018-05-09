@@ -1,7 +1,7 @@
 #@ # 
 #@ # Running dc_shell Version N-2017.09-SP2 for linux64 -- Nov 27, 2017
-#@ # Date:   Sat May  5 17:53:24 2018
-#@ # Run by: vlsi1840@vlsicad9
+#@ # Date:   Wed May  9 13:19:43 2018
+#@ # Run by: vlsi1812@vlsicad9
 #@ 
 
 source /usr/cad/synopsys/synthesis/cur/admin/setup/.synopsys_dc.setup
@@ -6585,8 +6585,8 @@ source /usr/cad/synopsys/synthesis/cur/admin/setup/.synopsys_dc.setup
 
 #@ # -- End source /usr/cad/synopsys/synthesis/cur/admin/setup/.synopsys_dc.setup
 
-source /home/user2/vlsi18/vlsi1840/.synopsys_dc.setup
-#@ # -- Starting source /home/user2/vlsi18/vlsi1840/.synopsys_dc.setup
+source /home/user2/vlsi18/vlsi1812/.synopsys_dc.setup
+#@ # -- Starting source /home/user2/vlsi18/vlsi1812/.synopsys_dc.setup
 
 #@ set company "CIC"
 #@ set designer "Student"
@@ -6605,7 +6605,7 @@ source /home/user2/vlsi18/vlsi1840/.synopsys_dc.setup
 #@ set sh_enable_line_editing true
 #@ history keep 100
 #@ alias h history
-#@ # -- End source /home/user2/vlsi18/vlsi1840/.synopsys_dc.setup
+#@ # -- End source /home/user2/vlsi18/vlsi1812/.synopsys_dc.setup
 
 gui_start
 #@ # -- Starting source /usr/cad/synopsys/synthesis/cur/auxx/tcllib/lib/itk4.0.1/itk.tcl
@@ -42968,7 +42968,8 @@ gui_start
 #@ 
 #@ # -- End source /usr/cad/synopsys/synthesis/cur/auxx/tcllib/lib/iwidgets4.1/watch.itk
 
-read_file -format verilog {/home/user2/vlsi18/vlsi1840/Lab7/SIPU/controller.v}
+read_file -format verilog {/home/user2/vlsi18/vlsi1812/Lab7/SIPU/top.v}
+change_selection [get_s grayscale]
 source DC.sdc
 #@ # -- Starting source DC.sdc
 
@@ -42993,3 +42994,8 @@ source DC.sdc
 #@ # -- End source DC.sdc
 
 compile -exact_map
+change_selection -remove [get_s grayscale]
+write -hierarchy -format verilog -output /home/user2/vlsi18/vlsi1812/Lab7/SIPU/top_syn.v
+write -hierarchy -format verilog -output /home/user2/vlsi18/vlsi1812/Lab7/SIPU/top_syn.v
+write -hierarchy -format verilog -output /home/user2/vlsi18/vlsi1812/Lab7/SIPU/top_syn.v
+write_sdf -version 2.1 -context verilog -load_delay net top_syn.sdf

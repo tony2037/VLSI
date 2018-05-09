@@ -1,6 +1,8 @@
 1525502395 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/controller.v
 1525420859 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/top.v
 1525500895 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/output_memory.v
+1525842778 /home/user2/vlsi18/vlsi1812/Lab7/SIPU/top_syn_tb.v
+1525842767 /home/user2/vlsi18/vlsi1812/Lab7/SIPU/top_tb.v
 1525414450 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/mux.v
 1525420542 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/grayscale.v
 1524645749 /home/user2/vlsi18/vlsi1840/Lab7/SIPU/top_syn_tb.v
