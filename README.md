@@ -1,0 +1,5 @@
+![image](https://github.com/tony2037/VLSI/blob/master/layout/half_adder_layout.png)
+![image](https://github.com/tony2037/VLSI/blob/master/layout/inverter_layout.png)
+![image](https://github.com/tony2037/VLSI/blob/master/layout/nor_layout.png)
+![image](https://github.com/tony2037/VLSI/blob/master/layout/nand_layout.png)
+![image](https://github.com/tony2037/VLSI/blob/master/layout/xor_layout.png)
