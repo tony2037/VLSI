@@ -1,0 +1,5 @@
+*inverter
+.subckt inv vout vin vdd! gnd!
+Mp vout vin vdd! vdd! p_18 W=1u L=0.18u m=1
+Mn vout vin gnd! gnd! n_18 W=0.5u L=0.18u m=1
+.ends

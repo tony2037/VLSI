@@ -1,0 +1,5 @@
+@FSDB log file version 1.0
+[VFAST16_AUTO_SWITCH_LOG]
+Command = vfast16 -silent -del / -o /home/user2/vlsi18/vlsi1812/Lab8/test.tr0.fsdb -ft spice /home/user2/vlsi18/vlsi1812/Lab8/test.tr0
+[FSDB_LIST]
+file1 = /home/user2/vlsi18/vlsi1812/Lab8/test_0.fsdb begin_time 0.000000 end_time 0.000000

@@ -1,0 +1,7 @@
+       1 xname.
+       2 xname.x_pm_nand%x.
+       3 xname.x_pm_nand%gnd!.
+       4 xname.x_pm_nand%3.
+       5 xname.x_pm_nand%y.
+       6 xname.x_pm_nand%vout.
+       7 xname.x_pm_nand%vdd!.

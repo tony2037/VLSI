@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/user2/vlsi18/vlsi1812/Lab9/Lab9
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT xor.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/user2/vlsi18/vlsi1812/Lab9/Lab9/xor.netlist
+lvs_LvsOutFile RULES_FILE /home/user2/vlsi18/vlsi1812/Lab9/Lab9/_Rule.lvs_
+lvs_LvsRunTimes 1528104483 1528104483

@@ -1,0 +1,27 @@
+* File: nor.pex.netlist
+* Created: Fri May 18 21:25:56 2018
+* Program "Calibre xRC"
+* Version "v2017.4_19.14"
+* 
+.include "nor.pex.netlist.pex"
+.subckt nor  X VDD! Y GND! VOUT
+* 
+* VOUT	VOUT
+* GND!	GND!
+* Y	Y
+* VDD!	VDD!
+* X	X
+M0 N_VOUT_M0_d N_X_M0_g N_GND!_M0_s N_GND!_M0_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+M1 N_GND!_M1_d N_Y_M1_g N_VOUT_M1_s N_GND!_M0_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+M2 N_3_M2_d N_X_M2_g N_VDD!_M2_s N_VDD!_M2_b P_18 L=1.8e-07 W=1e-06 AD=4.9e-13
++ AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+M3 N_VOUT_M3_d N_Y_M3_g N_3_M3_s N_VDD!_M2_b P_18 L=1.8e-07 W=1e-06 AD=4.9e-13
++ AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+*
+.include "nor.pex.netlist.NOR.pxi"
+*
+.ends
+*
+*

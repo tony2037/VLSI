@@ -1,0 +1,28 @@
+//*************************************************
+//** 2018 spring iVCAD
+//** Description: Mix color of two pixels
+//** Mar. 2018 Henry authored
+//*************************************************
+
+`timescale 1ns/10ps
+module MixColor (color_in1, color_in2, color_out);
+
+  input  [23:0] color_in1;
+  input  [23:0] color_in2;
+  output [23:0] color_out;
+
+  reg    [23:0] color_out;
+
+  reg [8:0] in1_r = {1'b0, color_in1[7:0]};
+  reg [8:0] in1_g = {1'b0, color_in1[15:8]};;
+  reg [8:0] in1_b = {1'b0, color_in1[23:16]};;
+
+  reg [8:0] in2_r = {1'b0, color_in2[7:0]};;
+  reg [8:0] in2_g = {1'b0, color_in2[15:8]};;
+  reg [8:0] in2_b = {1'b0, color_in2[23:16]};;
+
+  always @(*) begin
+    // You should complete this part
+  end
+
+endmodule

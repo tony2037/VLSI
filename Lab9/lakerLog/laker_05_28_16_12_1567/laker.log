@@ -1,0 +1,4 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux vlsicad9 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64)
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+au time 17.741794 2.307649 0.695894 delta 35921920 35921920 total 345911296 345911296

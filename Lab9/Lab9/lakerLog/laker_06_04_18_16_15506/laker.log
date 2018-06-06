@@ -1,0 +1,894 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux vlsicad9 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64)
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+lakerNewCell -lib Lab9 -cell half_adder
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerSingleSel -point (0.383,0.546) -traversedist 0.035
+lakerPanLeft
+lakerPanDown
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerCreateInstance -point (18.54,15.38) -cell xor -lib Lab9 -view layout
+lakerSingleSel -point (-1.246,-13.11) -traversedist 1.131
+lakerCreateInstance -point (2.03,-20.12) -orient R90 -cell nand -lib Lab9 -view layout
+lakerCreateInstance -point (32.555,-18.31) -orient R180 -cell inv -lib Lab9 -view layout
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerAreaSel -point (-21.256,-28.825) (65.68,28.38)
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerMaxViewLevel
+lakerZoomIn
+lakerZoomIn
+lakerZoomOut
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerAreaSel -point (-5.316,-23.285) (8.305,-11.302)
+lakerSingleSel
+lakerAreaSel -point (-13.06,-23.285) (8.305,-10.962)
+lakerSingleSel
+lakerAreaSel -point (-21.653,-23.85) (7.91,-5.592)
+lakerCreateRect -layerName DIFF -point (1.525,-16.84) (3.22,-16.785)
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (1.975,-17.8) -offsetPoint (-21.425,-17.8)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerAreaSel -point (0.45,-18.595) (4.69,-15.88)
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerAreaSel -point (20.687,-26.0) (42.505,-8.306)
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerAreaSel -point (13.735,-4.914) (22.722,19.45)
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerDeleteObj
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerSingleSel -point (11.303,7.296) -traversedist 0.565
+lakerChangeSelMode -mode Vertex
+lakerCreateInstance -point (-15.21,13.46) -cell nand -lib Lab9 -view layout
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerCreateInstance -point (-13.455,-8.36) -cell nand -lib Lab9 -view layout
+lakerCreateInstance -point (4.97,-6.045) -cell inv -lib Lab9 -view layout
+lakerZoomIn
+lakerPanDown
+lakerZoomIn
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerSingleSel
+lakerPanRight
+lakerPanLeft
+lakerSetActiveLayer -layerName ME1 -purpose drawing
+lakerPanRight
+lakerCreateRect -layerName ME1 -point (-12.185,-8.33) (5.295,-7.92)
+lakerPanLeft
+lakerPanDown
+lakerZoomIn
+lakerPanUp
+lakerPanLeft
+lakerPanRight
+lakerPanUp
+lakerZoomIn
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerSingleSel
+lakerStretchObj -refPoint (-12.015,-7.935) -ignoreNet 0 -offsetPoint (-12.015,-8.065)
+lakerSingleSel
+lakerStretchObj -refPoint (-12.015,-8.345) -ignoreNet 0 -offsetPoint (-12.015,-8.38)
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (7.61,-8.33) -offsetPoint (7.61,-9.19)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (7.565,-9.075) -offsetPoint (7.565,-9.44)
+lakerChangeSelMode -mode Vertex
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerCreateInstance -point (-10.815,10.435) -cell xor -lib Lab9 -view layout
+lakerPanUp
+lakerSingleSel -point (-31.968,-3.404) -traversedist 0.566
+lakerSingleSel
+lakerSingleSel
+lakerAreaSel -point (-18.45,-16.015) (15.825,-2.838)
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-13.475,-4.99) -offsetPoint (38.395,-4.99)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (40.715,-4.705) -offsetPoint (40.715,12.715)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (8.645,-4.93) -offsetPoint (58.245,-4.93)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (54.06,-3.97) -offsetPoint (54.06,12.885)
+lakerChangeSelMode -mode Vertex
+lakerPanRight
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (58.405,8.415) -offsetPoint (58.405,8.955)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel -point (42.23,4.543) -traversedist 0.283
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerAreaSel -point (35.443,5.42) (43.165,15.798)
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (50.46,12.405) -offsetPoint (58.095,12.405)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (59.51,10.565) -offsetPoint (63.92,10.565)
+lakerChangeSelMode -mode Vertex
+lakerAreaSel -point (37.592,3.75) (49.865,15.318)
+lakerAreaSel -point (36.404,3.525) (49.33,16.703)
+lakerSingleSel -point (39.855,15.402) -traversedist 0.283
+lakerAreaSel -point (37.536,-0.15) (49.525,15.685)
+lakerSingleSel
+lakerSingleSel
+lakerAreaSel -point (35.613,2.48) (50.49,17.552)
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (42.145,10.65) -offsetPoint (53.795,10.65)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (45.37,9.18) -offsetPoint (57.53,9.18)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (55.24,9.21) -offsetPoint (30.805,9.21)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerPanRight
+lakerPanLeft
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel -point (43.927,10.142) -traversedist 0.283
+lakerChangeSelMode -mode DevObj
+lakerSingleSel
+lakerMoveObj -ignoreNet 0 -refPoint (43.955,9.32) -offsetPoint (67.23,9.32)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerStretchObj -refPoint (68.19,9.235) -ignoreNet 0 -offsetPoint (67.005,9.235)
+lakerSingleSel
+lakerPanLeft
+lakerSingleSel -point (42.108,2.648) -traversedist 0.283
+lakerPanUp
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerZoomIn
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerPanUp
+lakerZoomIn
+lakerPanDown
+lakerSetActiveLayer -layerName ME1 -purpose drawing
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanRight
+lakerPanLeft
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerZoomOut
+lakerChangeSelMode -mode Object
+lakerSingleSel
+lakerSmashObj -level 1
+lakerSingleSel -point (-31.044,20.956) -traversedist 0.566
+lakerSingleSel -point (-30.591,21.408) -traversedist 0.566
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (-29.175,21.18) -offsetPoint (-29.175,24.295)
+lakerChangeSelMode -mode Vertex
+lakerUndo
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerPanLeft
+lakerPanDown
+lakerSingleSel
+lakerAttribute -index 1 -text {S}
+lakerPanLeft
+lakerPanUp
+lakerSingleSel
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerUndo
+lakerUndo
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanUp
+lakerPanRight
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanUp
+lakerSingleSel
+lakerChangeSelMode -mode Object
+lakerSmashObj -level 1
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerAttribute -index 1 -text {A}
+lakerSingleSel
+lakerAttribute -index 1 -text {B}
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode Object
+lakerSmashObj -level 1
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerAttribute -index 1 -layerName M1_TEXT -text {C}
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerZoomOut
+lakerZoomOut
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerZoomIn
+lakerPanUp
+lakerSingleSel
+lakerSingleSel
+lakerPanRight
+lakerStretchObj -refPoint (31.685,21.185) -ignoreNet 0 -offsetPoint (72.42,21.185)
+lakerCreateRect -layerName ME1 -point (49.74,12.785) (51.635,20.93)
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerCreateRect -layerName ME1 -point (64.205,13.755) (65.25,20.97)
+lakerPanLeft
+lakerPanDown
+lakerZoomOut
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (10.925,1.55) -offsetPoint (10.925,-0.71)
+lakerChangeSelMode -mode Vertex
+lakerPanLeft
+lakerSingleSel
+lakerStretchObj -refPoint (-35.26,0.93) -ignoreNet 0 -offsetPoint (-35.26,-0.71)
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (-10.365,0.42) -ignoreNet 0 -offsetPoint (-10.365,-1.105)
+lakerSetActiveLayer -layerName ME1 -purpose drawing
+lakerCreateRect -layerName ME1 -point (13.455,-0.935) (14.415,1.44)
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerSingleSel
+lakerStretchObj -refPoint (14.185,1.405) -ignoreNet 0 -offsetPoint (14.185,1.235)
+lakerSingleSel
+lakerStretchObj -refPoint (13.42,0.4) -ignoreNet 0 -offsetPoint (13.46,0.4)
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (5.51,-0.845) -offsetPoint (5.51,-9.84)
+lakerChangeSelMode -mode Vertex
+lakerPanUp
+lakerUndo
+lakerPanDown
+lakerZoomIn
+lakerPanUp
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerZoomIn
+lakerPanLeft -ratio 0
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (14.945,-1.125) -ignoreNet 0 -offsetPoint (71.865,-1.125)
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerCreateRect -layerName ME1 -point (52.295,-0.475) (53.005,6.57)
+lakerPanRight
+lakerCreateRect -layerName ME1 -point (64.64,-0.39) (65.545,4.475)
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerPanRight
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerZoomIn
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerCreateContact -point (49.73,9.625) -device PO_M1 -routeStatus fixed -param {PO_M1 1  1  0.23 0.23 0.25 0.25 0.12 0.12 0.11 0.11 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0  } -justify CenterCenter -viaGroup MCell
+lakerZoomIn
+lakerZoomIn
+lakerCreateContact -point (49.72,9.615) -device M1_M2 -routeStatus fixed -param {M1_M2 1  1  0.25 0.25 0.27 0.27 0.1 0.1 0.125 0.125 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0  } -justify CenterCenter -viaGroup MCell
+lakerZoomOut
+lakerZoomOut
+lakerPanRight
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerZoomOut
+lakerZoomIn
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerSetActiveLayer -layerName ME2 -purpose drawing
+lakerCreateRect -layerName ME2 -point (41.0,9.39) (50.13,9.97)
+lakerZoomIn
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerZoomIn
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerZoomIn
+lakerPanRight
+lakerPanLeft
+lakerPanDown
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (49.1,9.385) -ignoreNet 0 -offsetPoint (49.1,9.51)
+lakerSingleSel -point (50.113,9.603) -traversedist 0.035
+lakerSingleSel -point (50.138,9.606) -traversedist 0.035
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (50.115,9.64) -ignoreNet 0 -offsetPoint (50.035,9.64)
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerZoomIn
+lakerZoomOut
+lakerZoomOut
+lakerPanRight
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanDown
+lakerSetActiveLayer -layerName ME2 -purpose drawing
+lakerAreaSel -point (6.38,-6.275) (7.91,4.57)
+lakerCreateRect -layerName ME2 -point (4.48,-4.125) (6.265,4.685)
+lakerZoomOut
+lakerPanLeft
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanRight
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (3.565,1.035) -offsetPoint (3.565,-1.44)
+lakerChangeSelMode -mode Vertex
+lakerChangeSelMode -mode DevObj
+lakerMoveObj -ignoreNet 0 -refPoint (3.625,-1.655) -offsetPoint (-0.755,-1.655)
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerStretchObj -refPoint (5.66,4.635) -ignoreNet 0 -offsetPoint (5.66,4.42)
+lakerZoomOut
+lakerZoomOut
+lakerSingleSel -point (4.784,-4.706) -traversedist 0.566
+lakerSingleSel
+lakerStretchObj -refPoint (5.18,-4.195) -ignoreNet 0 -offsetPoint (5.18,-6.86)
+lakerSetActiveLayer -layerName ME2 -purpose drawing
+lakerCreateRect -layerName ME2 -point (3.48,-9.01) (45.225,-5.78)
+lakerStretchObj -refPoint (5.635,-6.97) -ignoreNet 0 -offsetPoint (5.635,-9.18)
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (9.94,-5.895) -ignoreNet 0 -offsetPoint (9.94,-6.86)
+lakerSingleSel
+lakerSingleSel -point (0.366,-8.047) -traversedist 0.566
+lakerSingleSel
+lakerStretchObj -refPoint (3.425,-8.105) -ignoreNet 0 -offsetPoint (4.39,-8.105)
+lakerZoomOut
+lakerZoomIn
+lakerPanRight
+lakerZoomIn
+lakerPanDown
+lakerPanUp
+lakerSingleSel
+lakerStretchObj -refPoint (40.175,-6.76) -ignoreNet 0 -offsetPoint (40.175,-7.695)
+lakerCreateRect -layerName ME2 -point (40.8,-9.025) (41.93,10.065)
+lakerSingleSel
+lakerStretchObj -refPoint (40.715,7.06) -ignoreNet 0 -offsetPoint (40.8,7.06)
+lakerSingleSel
+lakerStretchObj -refPoint (41.65,10.005) -ignoreNet 0 -offsetPoint (41.65,9.84)
+lakerUndo
+lakerSingleSel
+lakerStretchObj -refPoint (41.335,10.15) -ignoreNet 0 -offsetPoint (41.335,8.905)
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (41.48,8.79) -ignoreNet 0 -offsetPoint (41.48,9.95)
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerZoomIn
+lakerPanLeft
+lakerPanUp
+lakerZoomIn
+lakerPanRight
+lakerPanUp
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel -point (52.332,9.823) -traversedist 0.071
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+1 of selected objects cannot be deleted since the "Delete Shape Vertex" option in Preferences form is off.
+lakerChangeSelMode -mode Vertex
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerUndo
+lakerUndo
+lakerUndo
+lakerUndo
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerZoomIn
+lakerZoomIn
+lakerCreateContact -point (52.64,9.735) -device M1_M2 -routeStatus fixed -param {M1_M2 1  1  0.25 0.25 0.27 0.27 0.1 0.1 0.125 0.125 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0  } -justify CenterCenter -viaGroup MCell
+lakerPanLeft
+lakerZoomOut
+lakerZoomOut
+lakerSetActiveLayer -layerName ME2 -purpose drawing
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanUp
+lakerPanDown
+lakerCreateRect -layerName ME2 -point (52.51,9.625) (57.055,10.115)
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerZoomIn
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (53.505,10.115) -ignoreNet 0 -offsetPoint (53.505,10.085)
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerPanLeft
+lakerZoomOut
+lakerZoomIn
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanUp
+lakerZoomIn
+lakerPanUp
+lakerPanRight
+lakerPanUp
+lakerPanDown
+lakerPanLeft
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanUp
+lakerZoomOut
+lakerZoomOut
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel -point (-24.244,18.61) -traversedist 0.284
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerZoomIn
+lakerZoomIn
+lakerSingleSel
+lakerSingleSel
+lakerZoomOut
+lakerZoomOut
+lakerStretchObj -refPoint (-24.145,18.165) -ignoreNet 0 -offsetPoint (-24.145,27.065)
+lakerZoomOut
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanDown
+lakerPanLeft
+lakerSingleSel
+lakerStretchObj -refPoint (45.455,-8.42) -ignoreNet 0 -offsetPoint (42.165,-8.42)
+lakerPanUp
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel -point (-22.75,27.079) -traversedist 0.567
+lakerSingleSel
+lakerStretchObj -refPoint (-24.225,26.965) -ignoreNet 0 -offsetPoint (-24.225,28.78)
+lakerCreateRect -layerName ME2 -point (-25.7,26.795) (58.335,29.405)
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanUp
+lakerSingleSel
+lakerStretchObj -refPoint (-25.655,28.36) -ignoreNet 0 -offsetPoint (-24.465,28.36)
+lakerSingleSel
+lakerSingleSel
+lakerStretchObj -refPoint (-20.01,26.8) -ignoreNet 0 -offsetPoint (-20.01,27.735)
+lakerSingleSel
+lakerStretchObj -refPoint (-20.01,29.355) -ignoreNet 0 -offsetPoint (-20.01,28.87)
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanRight
+lakerPanDown
+lakerCreateRect -layerName ME2 -point (55.84,9.645) (57.485,28.085)
+lakerZoomOut
+lakerZoomOut
+lakerPanLeft
+lakerPanDown
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanUp
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanUp
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerZoomIn
+lakerZoomIn
+lakerPanRight
+lakerPanDown
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerPanDown
+lakerPanRight
+lakerZoomOut
+lakerZoomOut
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerSingleSel
+lakerChangeSelMode -mode DevObj
+lakerChangeSelMode -mode Vertex
+lakerDeleteObj
+lakerSingleSel -point (-6.242,-8.778) -traversedist 0.568
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerZoomOut
+lakerPanRight
+Original port(9189) is currently in use. Please open another free port(14161) or use Port number 14161 to communicate with Calibre RVE.
+lakerCalibreDRC
+//  Calibre Interactive - DRC  v2017.4_19.14    Tue Nov 7 11:38:09 PST 2017
+//
+//        Copyright Mentor Graphics Corporation 1996-2017
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux vlsicad9 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jun  4 18:40:28 2018
+//
+
+New connection accepted, fd = 20
+
+//  calinteractive license acquired.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "half_adder" "GDSII" "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/half_adder.calibre.db" ]
+Transferring library (Lab9) to GDSII (/home/user2/vlsi18/vlsi1812/Lab9/Lab9/half_adder.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file half_adder.calibre.db -lib Lab9 -topCell {half_adder} -case Preserve -label Preserve -maxVerti 1024 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 23
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Calibre process exit.
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerZoomIn
+au time 2383.334333 108.230546 100.645700 delta 61972480 61972480 total 371961856 371961856

@@ -1,0 +1,7 @@
+*nand
+.subckt nand vout X Y vdd! gnd!
+Mp1 vout Y vdd! vdd! p_18 W=1u L=0.18u m=1
+Mp2 vout X vdd! vdd! p_18 W=1u L=0.18u m=1
+Mn1 vout X x1 gnd! n_18 W=0.5u L=0.18u m=1
+Mn2 x1 Y gnd! gnd! n_18 W=0.5u L=0.18u m=1
+.ends

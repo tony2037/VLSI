@@ -1,0 +1,5 @@
+       1 xname.
+       2 xname.x_pm_inv%vin.
+       3 xname.x_pm_inv%gnd!.
+       4 xname.x_pm_inv%vdd!.
+       5 xname.x_pm_inv%vout.

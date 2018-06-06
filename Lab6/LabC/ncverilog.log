@@ -1,0 +1,58 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Apr 24, 2018 at 12:54:08 CST
+ncverilog
+	./ROM_tb.v
+	+define+FSDB
+	+access+r
+file: ./ROM_tb.v
+	module worklib.ROM_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ROM:v <0x03f2a360>
+			streams:   3, words:   869
+		worklib.ROM_tb:v <0x49fcabd5>
+			streams:   5, words:  4688
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:                8       8
+		Scalar wires:             2       -
+		Vectored wires:           2       -
+		Always blocks:            3       3
+		Initial blocks:           4       4
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.ROM_tb:v
+Loading snapshot worklib.ROM_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'ROM.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+                  80 ROM[      16368]=003ff0, 
+                  80 ROM[      16369]=003ff1, 
+                  80 ROM[      16370]=003ff2, 
+                  80 ROM[      16371]=003ff3, 
+                  80 ROM[      16372]=003ff4, 
+                  80 ROM[      16373]=003ff5, 
+                  80 ROM[      16374]=003ff6, 
+                  80 ROM[      16375]=003ff7, 
+                  80 ROM[      16376]=003ff8, 
+                  80 ROM[      16377]=003ff9, 
+                  80 ROM[      16378]=003ffa, 
+                  80 ROM[      16379]=003ffb, 
+                  80 ROM[      16380]=003ffc, 
+                  80 ROM[      16381]=003ffd, 
+                  80 ROM[      16382]=003ffe, 
+                  80 ROM[      16383]=003fff, 
+Simulation complete via $finish(1) at time 1 US + 0
+./ROM_tb.v:42     #1000 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 24, 2018 at 12:54:09 CST  (total: 00:00:01)

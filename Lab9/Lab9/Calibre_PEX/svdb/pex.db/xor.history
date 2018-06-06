@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Mon Jun  4 17:31:07 2018 " "v2017.4_19.14" "-xrc -pdb -rc -turbo 1 /home/user2/vlsi18/vlsi1812/Lab9/Lab9/Calibre_PEX/_Rule.rce_"
+"Mon Jun  4 17:31:08 2018 " "v2017.4_19.14" "-xrc -fmt -all /home/user2/vlsi18/vlsi1812/Lab9/Lab9/Calibre_PEX/_Rule.rce_"

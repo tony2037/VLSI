@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "N-2017.12 linux64"
+* "format" "HSP"
+* "rundate" "14:48:56 06/06/2018 "
+* "netlist" "half_adder_testbench.sp "
+* "runtitle" "*** testbench ***"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 0v =   0.            
++ a =   0.            
++ b =   1.8000        
++ c =   1.8000        
++ s =   1.8000        
++ vdd =   1.8000        
++ xname.a_ =   1.8000        
++ xname.b_ =  10.9565n       
++ xname.nout =   1.8000        
++ xname.x1 =   1.8000        
++ xname.x2 =   1.8000        
++ xname.x3 =  22.5637n       
++ xname.y1 =  22.5637n       
+***   END: Saved Operating Point ***                     

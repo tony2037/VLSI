@@ -1,0 +1,47 @@
+OK
+VERSION          2
+TIME_NUMBER 3844201893
+LAYER_COUNT         31
+VIACOR_COUNT          9
+FIELD_NAMES drc_layer_nb layer_name
+        10 ME2_NORES
+        15 ME1_NORES
+        32 TOP_VIA_MMC
+        33 TOP_VIA_SLM
+        46 TOP_M_C
+        48 SEC_LAST_MET_C
+        53 ME4_NORES
+        58 ME3_NORES
+        67 TWEL
+        72 PSUB
+       102 PTAP
+       115 WEL
+       116 NTAP
+       118 TNTAP
+       129 CONT
+       134 PSD_C
+       145 NSD_C
+       343 VI4
+       348 VI3
+       353 VI2
+       366 PLY_C
+       367 PLY_I
+       368 PSD_I
+       369 NSD_I
+       370 MMC_C
+       371 MMC_I
+       950 VI1
+      1039 temporary_layer1039
+      1040 temporary_layer1040
+      1041 temporary_layer1041
+      1042 temporary_layer1042
+VIACOR_FIELD_NAMES VIA_drc_layer_nb LAYER1_drc_layer_nb LAYER2_drc_layer_nb
+32  46  370
+33  46  48
+343  48  53
+348  53  58
+353  10  58
+950  10  15
+129  15  366
+1042  15  134
+1041  15  145

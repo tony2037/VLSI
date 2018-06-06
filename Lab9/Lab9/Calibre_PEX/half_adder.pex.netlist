@@ -1,0 +1,56 @@
+* File: half_adder.pex.netlist
+* Created: Wed Jun  6 15:23:10 2018
+* Program "Calibre xRC"
+* Version "v2017.4_19.14"
+* 
+.include "half_adder.pex.netlist.pex"
+.subckt half_adder  S B A GND VDD C
+* 
+* C	C
+* VDD	VDD
+* GND	GND
+* A	A
+* B	B
+* S	S
+M0 N_1_M0_d N_B_M0_g N_GND_M0_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13
++ AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+M1 N_S_M1_d N_A_M1_g N_noxref_8_M1_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=2.45e-13 PD=5.1e-07 PS=1.48e-06
+M2 N_noxref_8_M2_d N_1_M2_g N_S_M2_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+M3 N_GND_M3_d N_B_M3_g N_noxref_8_M3_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07
++ AD=1.275e-13 AS=1.275e-13 PD=5.1e-07 PS=5.1e-07
+M4 N_noxref_8_M4_d N_3_M4_g N_GND_M4_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07
++ AD=2.45e-13 AS=1.275e-13 PD=1.48e-06 PS=5.1e-07
+M5 N_3_M5_d N_A_M5_g N_GND_M5_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13
++ AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+M6 N_9_M6_d N_B_M6_g N_GND_M6_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13
++ AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+M7 N_10_M7_d N_A_M7_g N_9_M7_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13
++ AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+M8 N_C_M8_d N_10_M8_g N_GND_M8_s N_GND_M0_b N_18 L=1.8e-07 W=5e-07 AD=2.45e-13
++ AS=2.45e-13 PD=1.48e-06 PS=1.48e-06
+M9 N_1_M9_d N_B_M9_g N_VDD_M9_s N_VDD_M9_b P_18 L=1.8e-07 W=1e-06 AD=4.9e-13
++ AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+M10 N_noxref_6_M10_d N_A_M10_g N_VDD_M10_s N_VDD_M10_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=4.9e-13 PD=5.1e-07 PS=1.98e-06
+M11 N_S_M11_d N_1_M11_g N_noxref_6_M11_s N_VDD_M10_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+M12 N_noxref_7_M12_d N_B_M12_g N_S_M12_s N_VDD_M10_b P_18 L=1.8e-07 W=1e-06
++ AD=2.55e-13 AS=2.55e-13 PD=5.1e-07 PS=5.1e-07
+M13 N_VDD_M13_d N_3_M13_g N_noxref_7_M13_s N_VDD_M10_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=2.55e-13 PD=1.98e-06 PS=5.1e-07
+M14 N_3_M14_d N_A_M14_g N_VDD_M14_s N_VDD_M14_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+M15 N_10_M15_d N_B_M15_g N_VDD_M15_s N_VDD_M15_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+M16 N_VDD_M16_d N_A_M16_g N_10_M16_s N_VDD_M15_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+M17 N_C_M17_d N_10_M17_g N_VDD_M17_s N_VDD_M17_b P_18 L=1.8e-07 W=1e-06
++ AD=4.9e-13 AS=4.9e-13 PD=1.98e-06 PS=1.98e-06
+*
+.include "half_adder.pex.netlist.HALF_ADDER.pxi"
+*
+.ends
+*
+*

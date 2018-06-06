@@ -1,0 +1,55 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Apr 06, 2018 at 11:56:10 CST
+ncverilog
+	./addsub_8bit_tb.v
+	+define+FSDB
+	+access+r
+file: ./addsub_8bit_tb.v
+	module worklib.addsub_8bit_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	addsub_1bit addsub0(.S(S[0]), .cout(cout0), .A(A[0]), .B(B[0]), .cin(0), .addsub(addsub));
+	                                                                     |
+ncelab: *W,CUVMPW (./addsub_8bit.v,22|70): port sizes differ in port connection (32/1).
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.addsub_8bit:v <0x4c8d3b05>
+			streams:   1, words:   146
+		worklib.addsub_8bit_tb:v <0x6d1a754c>
+			streams:   7, words: 11270
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 18       4
+		Primitives:              80       4
+		Registers:                3       3
+		Scalar wires:             3       -
+		Expanded wires:          16       2
+		Initial blocks:           3       3
+		Pseudo assignments:       4       4
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.addsub_8bit_tb:v
+Loading snapshot worklib.addsub_8bit_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'addsub_8bit.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+                   0 A=  2, B=  1, addsub=0, S=  3 , cout=0, ov_flag=z
+                  10 A=  7, B=251, addsub=0, S=  2 , cout=1, ov_flag=z
+                  20 A=  8, B=124, addsub=0, S=132 , cout=0, ov_flag=z
+                  30 A= 25, B= 13, addsub=1, S= 11 , cout=1, ov_flag=z
+                  40 A= 28, B=131, addsub=1, S=152 , cout=0, ov_flag=z
+                  50 A=207, B= 53, addsub=1, S=153 , cout=1, ov_flag=z
+                  60 A=140, B= 24, addsub=1, S=115 , cout=1, ov_flag=z
+                  70 A=129, B=129, addsub=0, S=  2 , cout=1, ov_flag=z
+                  80 A=128, B=128, addsub=0, S=  0 , cout=1, ov_flag=z
+Simulation complete via $finish(1) at time 170 NS + 0
+./addsub_8bit_tb.v:29       #90 $finish ; 
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 06, 2018 at 11:56:11 CST  (total: 00:00:01)

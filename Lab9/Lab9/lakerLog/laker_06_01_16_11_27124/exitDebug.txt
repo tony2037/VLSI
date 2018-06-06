@@ -1,0 +1,30 @@
+#0  0x0000003d9d0db770 in __read_nocancel () from /lib64/libc.so.6
+#1  0x0000003d9d071b58 in _IO_new_file_underflow () from /lib64/libc.so.6
+#2  0x0000003d9d07365e in _IO_default_uflow_internal () from /lib64/libc.so.6
+#3  0x0000003d9d067d3a in _IO_getline_info_internal () from /lib64/libc.so.6
+#4  0x0000003d9d066b99 in fgets () from /lib64/libc.so.6
+#5  0x0000000007ad126f in _sys_fgets ()
+#6  0x0000000007aa1af2 in sysGetCallStack ()
+#7  0x0000000007aa2188 in exit ()
+#8  0x00007f2feab84bc8 in qt_xio_errhandler () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtGui.so.4
+#9  0x0000003bd9c4488e in _XIOError () from /usr/lib64/libX11.so.6
+#10 0x0000003bd9c4329f in _XReply () from /usr/lib64/libX11.so.6
+#11 0x0000003bd9c28f76 in XGetWindowProperty () from /usr/lib64/libX11.so.6
+#12 0x0000000007004f0d in is_iconified(_wtWindowRec*) ()
+#13 0x000000000700538a in QwDndWidget::setVisibilityTimer() ()
+#14 0x0000000007005dff in QwDndWidget::qt_metacall(QMetaObject::Call, int, void**) ()
+#15 0x00007f2fea68853f in QMetaObject::activate(QObject*, int, int, void**) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#16 0x00007f2fea6834aa in QObject::event(QEvent*) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#17 0x00007f2feab2d28e in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtGui.so.4
+#18 0x00007f2feab31ed0 in QApplication::notify(QObject*, QEvent*) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtGui.so.4
+#19 0x00007f2fea673973 in QCoreApplication::notifyInternal(QObject*, QEvent*) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#20 0x00007f2feb53287b in qmotif_timer_handler(void*, unsigned long*) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtSolutions_MotifExtension-2.7.so.1
+#21 0x0000003be642ed1d in XtAppProcessEvent () from /usr/lib64/libXt.so.6
+#22 0x00007f2feb53247a in QtMotif::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtSolutions_MotifExtension-2.7.so.1
+#23 0x00007f2fea672dc5 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#24 0x00007f2fea67302c in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#25 0x00007f2fea674e39 in QCoreApplication::exec() () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#26 0x00000000015dcb7e in LEOApp_C::MsgDispatch() ()
+#27 0x00000000015e085d in main ()
+
+Process exit with status code of 1

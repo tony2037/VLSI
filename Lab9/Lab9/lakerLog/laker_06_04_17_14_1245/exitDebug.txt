@@ -1,0 +1,22 @@
+#0  0x0000003d9d0db770 in __read_nocancel () from /lib64/libc.so.6
+#1  0x0000003d9d071b58 in _IO_new_file_underflow () from /lib64/libc.so.6
+#2  0x0000003d9d07365e in _IO_default_uflow_internal () from /lib64/libc.so.6
+#3  0x0000003d9d067d3a in _IO_getline_info_internal () from /lib64/libc.so.6
+#4  0x0000003d9d066b99 in fgets () from /lib64/libc.so.6
+#5  0x0000000007ad126f in _sys_fgets ()
+#6  0x0000000007aa1af2 in sysGetCallStack ()
+#7  0x0000000007aa2188 in exit ()
+#8  0x00007f50545c2bc8 in qt_xio_errhandler () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtGui.so.4
+#9  0x0000003bd9c4488e in _XIOError () from /usr/lib64/libX11.so.6
+#10 0x0000003bd9c436ed in _XEventsQueued () from /usr/lib64/libX11.so.6
+#11 0x0000003bd9c343ff in XEventsQueued () from /usr/lib64/libX11.so.6
+#12 0x0000003be642e1cc in _XtWaitForSomething () from /usr/lib64/libXt.so.6
+#13 0x0000003be642ec4d in XtAppProcessEvent () from /usr/lib64/libXt.so.6
+#14 0x00007f5054f7047a in QtMotif::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtSolutions_MotifExtension-2.7.so.1
+#15 0x00007f50540b0dc5 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#16 0x00007f50540b102c in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#17 0x00007f50540b2e39 in QCoreApplication::exec() () from /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/libQtCore.so.4
+#18 0x00000000015dcb7e in LEOApp_C::MsgDispatch() ()
+#19 0x00000000015e085d in main ()
+
+Process exit with status code of 1

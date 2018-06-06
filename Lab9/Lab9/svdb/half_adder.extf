@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1528269588 1528269589
+lvs_ExtOutFile RUNDIR /home/user2/vlsi18/vlsi1812/Lab9/Lab9
+lvs_ExtOutFile RULES_FILE /home/user2/vlsi18/vlsi1812/Lab9/Lab9/_Rule.lvs_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/user2/vlsi18/vlsi1812/Lab9/Lab9/half_adder.sp
+lvs_ExtOutFile EXTRACTION_REPORT half_adder.lvs.report.ext

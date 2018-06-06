@@ -1,0 +1,23 @@
+* "simulator" "HSPICE" 
+* "version" "N-2017.12 linux64"
+* "format" "HSP"
+* "rundate" "17:29:24 06/04/2018 "
+* "netlist" "./Calibre_PEX/testbench_xor.sp "
+* "runtitle" "*** testbench ***"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 0v =   0.            
++ a =   0.            
++ a_ =   1.8000        
++ b =   1.8000        
++ b_ =  10.9565n       
++ vdd =   1.8000        
++ y =   1.8000        
++ xname.x1 =   1.8000        
++ xname.x2 =   1.8000        
++ xname.x3 =  22.5637n       
+***   END: Saved Operating Point ***                     

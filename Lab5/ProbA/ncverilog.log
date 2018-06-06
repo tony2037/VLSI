@@ -1,0 +1,107 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Apr 17, 2018 at 15:03:37 CST
+ncverilog
+	regfile_tb.v
+	+define+FSDB
+	+access+r
+file: regfile_tb.v
+	module worklib.regfile_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.regfile:v <0x612c89cd>
+			streams:   6, words: 13811
+		worklib.regfile_tb:v <0x6f4714c1>
+			streams:   4, words: 17822
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               13      13
+		Scalar wires:             4       -
+		Vectored wires:           6       -
+		Always blocks:            2       2
+		Initial blocks:           3       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.regfile_tb:v
+Loading snapshot worklib.regfile_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'regfile.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+-----------------------register file---------------------------
+REG[          0] = 4294901760  
+REG[          1] =          0  
+REG[          2] =          0  
+REG[          3] =          0  
+REG[          4] =          0  
+REG[          5] =          0  
+REG[          6] =          0  
+REG[          7] =          0  
+REG[          8] =          0  
+REG[          9] =          0  
+REG[         10] =          0  
+REG[         11] =          0  
+REG[         12] = 4294901761  
+REG[         13] =          0  
+REG[         14] =          0  
+REG[         15] =          0  
+REG[         16] =          0  
+REG[         17] =          0  
+REG[         18] =          0  
+REG[         19] =          0  
+REG[         20] =          0  
+REG[         21] =          0  
+REG[         22] =          0  
+REG[         23] =          0  
+REG[         24] =          0  
+REG[         25] = 4294901762  
+REG[         26] =          0  
+REG[         27] =          0  
+REG[         28] =          0  
+REG[         29] =          0  
+REG[         30] =          0  
+REG[         31] =          0  
+REG[         32] = 4294901763  
+REG[         33] =          0  
+REG[         34] =          0  
+REG[         35] =          0  
+REG[         36] =          0  
+REG[         37] =          0  
+REG[         38] =          0  
+REG[         39] =          0  
+REG[         40] =          0  
+REG[         41] = 4294901764  
+REG[         42] =          0  
+REG[         43] =          0  
+REG[         44] =          0  
+REG[         45] =          0  
+REG[         46] =          0  
+REG[         47] =          0  
+REG[         48] =          0  
+REG[         49] =          0  
+REG[         50] =          0  
+REG[         51] = 4294901765  
+REG[         52] =          0  
+REG[         53] =          0  
+REG[         54] =          0  
+REG[         55] =          0  
+REG[         56] = 4294901766  
+REG[         57] =          0  
+REG[         58] =          0  
+REG[         59] =          0  
+REG[         60] = 4294901767  
+REG[         61] =          0  
+REG[         62] = 4294901768  
+REG[         63] = 4294901769  
+Simulation complete via $finish(1) at time 360 NS + 0
+./regfile_tb.v:77 #200 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 17, 2018 at 15:03:37 CST  (total: 00:00:00)

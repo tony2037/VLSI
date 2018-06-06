@@ -1,0 +1,4 @@
+s1(11Apr2018:19:22:13):  ncverilog ./regfile_sipo.v 
+s2(11Apr2018:19:22:19):  ncverilog ./regfile_sipo_tb.v 
+s3(17Apr2018:15:08:11):  ncverilog regfile_sipo_tb.v 
+s4(17Apr2018:15:08:26):  ncverilog regfile_sipo_tb.v +access+r +define+FSDB 

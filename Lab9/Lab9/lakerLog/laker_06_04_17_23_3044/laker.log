@@ -1,0 +1,203 @@
+Command Line: /usr/cad/synopsys/laker/cur/platform/LINUX64/bin/laker
+uname(Linux vlsicad9 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64)
+source /usr/cad/synopsys/laker/cur/gift/gift.tcl
+lakerOpenDesign -lib Lab9 -cell xor -mode edit
+lakerSetActiveLayer -layerName DIFF -purpose drawing
+lakerCalibreLVS
+New connection accepted, fd = 20
+
+//  Calibre Interactive - LVS  v2017.4_19.14    Tue Nov 7 11:38:09 PST 2017
+//
+//        Copyright Mentor Graphics Corporation 1996-2017
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux vlsicad9 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jun  4 17:23:29 2018
+//
+
+//  calinteractive license acquired.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "xor" "GDSII" "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/xor.calibre.db" ]
+Transferring library (Lab9) to GDSII (/home/user2/vlsi18/vlsi1812/Lab9/Lab9/xor.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file xor.calibre.db -lib Lab9 -topCell {xor} -case Preserve -label Preserve -maxVerti 1024 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 23
+
+Received from RVE: [ mgc_rve_rfile "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/query_results" ]
+lakerSingleSel -point (-3.788,-5.718) -traversedist 0.033
+Received from RVE: [ mgc_rve_rfile "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/query_results" ]
+lakerSingleSel -point (-3.356,-5.862) -traversedist 0.033
+lakerZoomOut
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerSingleSel -point (1.602,-3.972) -traversedist 0.067
+lakerSingleSel -point (-0.488,-5.601) -traversedist 0.067
+lakerSingleSel -point (-0.161,-5.361) -traversedist 0.067
+lakerSingleSel
+lakerSingleSel
+lakerSingleSel -point (0.727,-5.087) -traversedist 0.067
+lakerZoomOut
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+Received from RVE: [ mgc_rve_rfile "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/query_results" ]
+lakerSingleSel -point (-11.143,-12.456) -traversedist 0.531
+lakerZoomOut
+lakerZoomIn
+lakerZoomIn
+lakerPanLeft
+lakerPanRight
+lakerPanRight
+lakerPanLeft
+lakerPanLeft
+lakerPanDown
+lakerPanRight
+lakerPanLeft
+lakerPanUp
+lakerPanUp
+lakerZoomOut
+lakerPanDown
+lakerZoomIn
+lakerZoomIn
+lakerPanUp
+lakerPanRight
+lakerPanUp
+lakerPanUp
+lakerSetActiveLayer -layerName ME1 -purpose drawing
+lakerCreateRect -layerName ME1 -point (-5.045,8.345) (-4.305,11.305)
+lakerPanDown
+lakerPanDown
+lakerPanDown
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanDown
+lakerPanUp
+lakerZoomIn
+lakerPanRight
+lakerPanDown
+lakerPanLeft
+lakerPanUp
+lakerCreateRect -layerName ME1 -point (-0.08,-9.58) (0.565,-7.15)
+lakerCalibreDRC
+//  Calibre Interactive - DRC  v2017.4_19.14    Tue Nov 7 11:38:09 PST 2017
+//
+//        Copyright Mentor Graphics Corporation 1996-2017
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux vlsicad9 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jun  4 17:27:26 2018
+//
+
+New connection accepted, fd = 24
+
+//  calinteractive license acquired.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "xor" "GDSII" "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/xor.calibre.db" ]
+Transferring library (Lab9) to GDSII (/home/user2/vlsi18/vlsi1812/Lab9/Lab9/xor.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file xor.calibre.db -lib Lab9 -topCell {xor} -case Preserve -label Preserve -maxVerti 1024 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+New connection accepted, fd = 27
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Calibre process exit.
+Received from RVE: [ mgc_rve_export_layout "xor" "GDSII" "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/xor.calibre.db" ]
+Transferring library (Lab9) to GDSII (/home/user2/vlsi18/vlsi1812/Lab9/Lab9/xor.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file xor.calibre.db -lib Lab9 -topCell {xor} -case Preserve -label Preserve -maxVerti 1024 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+New connection accepted, fd = 23
+
+Received from RVE: [ mgc_rve_delete_markers "" 1 ]
+Calibre process exit.
+lakerCalibrePEX
+//  Calibre Interactive - PEX  v2017.4_19.14    Tue Nov 7 11:38:09 PST 2017
+//
+//        Copyright Mentor Graphics Corporation 1996-2017
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//  Running on Linux vlsicad9 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64
+//  64 bit virtual addressing enabled
+//
+//  Starting time: Mon Jun  4 17:28:44 2018
+//
+
+New connection accepted, fd = 20
+
+//  calinteractive license acquired.
+//  Calibre Interactive authorized.
+
+Received from RVE: [ mgc_rve_export_layout "xor" "GDSII" "/home/user2/vlsi18/vlsi1812/Lab9/Lab9/Calibre_PEX/xor.calibre.db" ]
+Transferring library (Lab9) to GDSII (/home/user2/vlsi18/vlsi1812/Lab9/Lab9/Calibre_PEX/xor.calibre.db) ...
+	Please wait a moment...
+lakerExportStream -file /home/user2/vlsi18/vlsi1812/Lab9/Lab9/ -lib Lab9 -topCell {xor} -case Preserve -label Preserve -maxVerti 1024 -mergeRefLib 1 -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -filterText 0 -filterAllSysLayer {All} -reduceMCell 0 -reduceDevice 0 -convertPolyText 0 -pathToPolygon 0 -purposeMap 1 -keepPCell 0 -designIntention 0 -keepLastOpts 1
+The Export Stream process has been completed.
+Total #Fatal = 0, #Warn = 0
+For more information, please check (gdsOut.log) and (gdsOut.err) files.
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off.
+Sent to RVE: [ layout_done 1 ]
+WARNING: PEX FDB is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX BACKANNOTATION is obsolete.  Please remove from your ruledeck.
+WARNING: PEX COUPLED DISTRIBUTED is obsolete.  Please remove from your ruledeck.
+WARNING: PEX DELAY is obsolete.  Please remove from your ruledeck.
+WARNING: use of PEX NETLIST keyword 'SPICE' is deprecated -- replace with 'HSPICE'.
+WARNING: The PEX NETLIST keyword 'LOOP' is obsolete and will be ignored. Please remove from your ruledeck.
+WARNING: PEX RESISTANCE LUMPED is obsolete.  Please remove from your ruledeck.
+
+CONTROL-C detected
+
+CONTROL-C detected
+
+Calibre process exit.
+lakerSaveDesign
+lakerCloseDesign
+au time 1631.883953 73.647804 67.521735 delta 56221696 56221696 total 366211072 366211072

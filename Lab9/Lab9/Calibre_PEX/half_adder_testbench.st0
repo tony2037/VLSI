@@ -1,0 +1,55 @@
+****** HSPICE -- N-2017.12 linux64 (Nov 21 2017) ******
+ Input File: half_adder_testbench.sp
+ lic:
+ lic: FLEXlm: SDK_11.6.8.3
+ lic: USER:   vlsi1812             HOSTNAME: vlsicad9
+ lic: HOSTID: "e61f1348decb"       PID:      8913
+ lic: Using FLEXlm license file:
+ lic: 26585@lscic
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 14-may-2019/2017.12
+ lic: 149(in_use)/150(total) FLOATING license(s) on SERVER 26585@lscic
+ lic:
+ init: begin read circuit files, cpu clock= 5.70E-01
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/ad
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/behave
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/bjt
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/burr_b
+                         rn
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/comlin
+                         ear
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/dio
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/fet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/lin_te
+                         ch
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/pci
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/signet
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/ti
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/tline
+       option search = /usr/cad/synopsys/hspice/cur/hspice/parts/xilinx
+       option runlvl
+       option post
+ init: end read circuit files, cpu clock= 5.90E-01 peak memory=     284 mb
+ init: begin check errors, cpu clock= 5.90E-01
+ init: end check errors, cpu clock= 6.10E-01 peak memory=     285 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 6.10E-01
+       establish matrix -- done, cpu clock= 6.10E-01 peak memory=     285 mb
+       re-order matrix -- done, cpu clock= 6.10E-01 peak memory=     285 mb
+ init: end setup matrix, cpu clock= 6.20E-01 peak memory=     285 mb
+ dcop: begin dcop, cpu clock= 6.20E-01
+ dcop: end dcop, cpu clock= 6.20E-01 peak memory=     285 mb tot_iter=       4
+ output: half_adder_testbench.tr0
+ sweep: tran tran0    begin, stop_t=  1.50E-07 #sweeps=3001 cpu clock= 6.20E-01
+ tran: time= 1.5000E-08 tot_iter=      16 conv_iter=       8 cpu clock= 6.20E-01
+ tran: time= 3.0000E-08 tot_iter=     106 conv_iter=      36 cpu clock= 6.50E-01
+ tran: time= 4.5265E-08 tot_iter=     287 conv_iter=      89 cpu clock= 7.00E-01
+ tran: time= 6.5000E-08 tot_iter=     303 conv_iter=      97 cpu clock= 7.00E-01
+ tran: time= 7.6022E-08 tot_iter=     402 conv_iter=     125 cpu clock= 7.30E-01
+ tran: time= 9.0000E-08 tot_iter=     410 conv_iter=     129 cpu clock= 7.40E-01
+ tran: time= 1.0500E-07 tot_iter=     579 conv_iter=     180 cpu clock= 7.70E-01
+ tran: time= 1.2000E-07 tot_iter=     687 conv_iter=     212 cpu clock= 8.00E-01
+ tran: time= 1.3576E-07 tot_iter=     714 conv_iter=     224 cpu clock= 8.10E-01
+ tran: time= 1.5000E-07 tot_iter=     833 conv_iter=     260 cpu clock= 8.30E-01
+ sweep: tran tran0    end, cpu clock= 8.30E-01 peak memory=     285 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

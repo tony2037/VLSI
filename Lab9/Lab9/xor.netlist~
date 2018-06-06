@@ -1,0 +1,20 @@
+*xor
+.subckt xor Y A A_ B B_ VDD GND
+Mp1 x1 A VDD VDD p_18 W=1u L=0.18u m=1
+Mp2 x2 A_ VDD VDD p_18 W=1u L=0.18u m=1
+Mp3 Y B_ x1 VDD p_18 W=1u L=0.18u m=1
+Mp4 Y B x2 VDD p_18 W=1u L=0.18u m=1
+
+Mp5 A_ A VDD VDD p_18 W=1u L=0.18u m=1
+
+Mp6 B_ B VDD VDD p_18 W=1u L=0.18u m=1
+
+Mn1 Y A x3 GND n_18 W=0.5u L=0.18u m=1
+Mn2 Y B_ x3 GND n_18 W=0.5u L=0.18u m=1
+Mn3 x3 A_ GND GND n_18 W=0.5u L=0.18u m=1
+Mn4 x3 B GND GND n_18 W=0.5u L=0.18u m=1
+
+Mn5 A_ A GND GND n_18 W=0.5u L=0.18u m=1
+
+Mn6 B_ B GND GND n_18 W=0.5u L=0.18u m=1
+.ends

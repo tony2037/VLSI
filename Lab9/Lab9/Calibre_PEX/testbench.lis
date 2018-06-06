@@ -1,0 +1,336 @@
+ ****** HSPICE -- N-2017.12 linux64 (Nov 21 2017) ******                        
+  Copyright (c) 1986 - 2018 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: testbench.sp                                                      
+  Command line options: /usr/cad/synopsys/hspice/cur/hspice/linux64/hspice testbench.sp -o testbench.lis
+ lic:  
+ lic: FLEXlm: SDK_11.6.8.3 
+ lic: USER:   vlsi1812             HOSTNAME: vlsicad9 
+ lic: HOSTID: "e61f1348decb"       PID:      31996 
+ lic: Using FLEXlm license file: 
+ lic: 26585@lsncku 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 14-may-2019/2017.12 
+ lic: 75(in_use)/90(total) FLOATING license(s) on SERVER 26585@lsncku 
+ lic:   
+  **warning** (nand.pex.netlist:7) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- N-2017.12 linux64 (Nov 21 2017) ******                        
+ ******  
+ *** testbench ***
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xname.                          nand               1.00 
+        2 xname.x_pm_nand%x.              pm_nand%x          1.00 
+        3 xname.x_pm_nand%gnd!.           pm_nand%gnd!       1.00 
+        4 xname.x_pm_nand%3.              pm_nand%3          1.00 
+        5 xname.x_pm_nand%y.              pm_nand%y          1.00 
+        6 xname.x_pm_nand%vout.           pm_nand%vout       1.00 
+        7 xname.x_pm_nand%vdd!.           pm_nand%vdd!       1.00 
+  **info** (testbench.sp:27) DC voltage reset to initial transient source value in source 0:v3. new dc=0.0000D+00
+  **warning** (nand.pex.netlist.pex:25) Both nodes of element xname.x_pm_nand%gnd!.c0 are connected together; Line ignored.
+ 
+
+  
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+             
+ Summary of Linear Res Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-03  ~  1e-02|2         |2.1739    |
+ |1e-02  ~  1e-01|27        |29.3478   |
+ |1e-01  ~  1e+00|13        |14.1304   |
+ |1e+00  ~  1e+03|50        |54.3478   |
+ ---------------------------------------
+              
+             
+ Summary of Linear Cap Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-18  ~  1e-17|3         |9.0909    |
+ |1e-17  ~  1e-16|19        |57.5758   |
+ |1e-16  ~  1e-15|11        |33.3333   |
+ ---------------------------------------
+              
+             
+ Summary of Detailed RC Type Statistics
+ -------------------------
+ |Element Type|Number    |
+ |------------+----------|
+ |Constant Res|92        |
+ |            |          |
+ |Constant Cap|33        |
+ -------------------------
+              
+  Opening plot unit= 15
+ file=testbench.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+ ******  
+ *** testbench ***
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:0v      =   0.      0:vdd!    =   1.8000  0:vout    =   1.8000 
+ +0:x       =   0.      0:y       =   1.8000  1:n_3_m0_d=   1.5721 
+ +1:n_3_m1_s=   1.5721  1:n_gnd!_m=  29.3085p 1:n_gnd!_m= 398.1634p
+ +1:n_vdd!_m=   1.8000  1:n_vdd!_m=   1.8000  1:n_vdd!_m=   1.8000 
+ +1:n_vout_m=   1.8000  1:n_vout_m=   1.8000  1:n_vout_m=   1.8000 
+ +1:n_x_m0_g=   0.      1:n_x_m2_g=   0.      1:n_y_m1_g=   1.8000 
+ +1:n_y_m3_g=   1.8000  2:2       =   0.      2:4       =   0.     
+ +2:5       =   0.      2:7       =   0.      2:11      =   0.     
+ +2:15      =   0.      3:2       =  12.9301p 3:3       =  17.9473p
+ +3:6       =  14.0805p 3:7       =  12.7792p 3:10      =  18.4748p
+ +3:11      =  12.7434p 3:14      =   9.8469p 3:17      =   7.7998p
+ +3:18      =   4.6142p 3:20      =   4.2172p 3:21      =   1.0342p
+ +3:25      = 315.1473p 3:26      =  18.5860p 3:30      =  12.7498p
+ +3:33      =  12.2427p 4:6       =   1.5721  4:7       =   1.5721 
+ +4:11      =   1.5721  4:12      =   1.5721  4:16      =   1.5721 
+ +4:18      =   1.5721  5:2       =   1.8000  5:6       =   1.8000 
+ +5:11      =   1.8000  5:13      =   1.8000  5:16      =   1.8000 
+ +5:17      =   1.8000  5:18      =   1.8000  6:2       =   1.8000 
+ +6:3       =   1.8000  6:4       =   1.8000  6:5       =   1.8000 
+ +6:7       =   1.8000  6:12      =   1.8000  6:13      =   1.8000 
+ +6:17      =   1.8000  6:18      =   1.8000  6:22      =   1.8000 
+ +6:23      =   1.8000  6:27      =   1.8000  6:29      =   1.8000 
+ +7:3       =   1.8000  7:4       =   1.8000  7:5       =   1.8000 
+ +7:7       =   1.8000  7:8       =   1.8000  7:12      =   1.8000 
+ +7:13      =   1.8000  7:14      =   1.8000  7:18      =   1.8000 
+ +7:19      =   1.8000  7:23      =   1.8000  7:24      =   1.8000 
+ +7:27      =   1.8000  7:28      =   1.8000  7:31      =   1.8000 
+ +7:32      =   1.8000  7:35      =   1.8000  7:38      =   1.8000 
+ +7:39      =   1.8000  7:41      =   1.8000  7:42      =   1.8000 
+ +7:44      =   1.8000  7:47      =   1.8000  7:48      =   1.8000 
+
+
+ **** voltage sources
+
+ subckt                                              
+ element  0:v1       0:v2       0:v3       0:v4      
+  volts      1.8000     0.         0.         1.8000 
+  current  -22.9718p   22.9718p    0.        83.2667a
+  power     41.3493p    0.         0.      -149.8801a
+
+     total voltage source power dissipation=   41.3492p       watts
+
+
+
+ **** resistors
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  2:r5       2:r6       2:r7       2:r8       2:r9       2:r10     
+  r value    8.3358    70.5000     8.3358    46.5000    68.0000m   13.2552 
+  v drop     0.         0.         0.         0.         0.         0.     
+  current    0.         0.         0.         0.         0.         0.     
+  power      0.         0.         0.         0.         0.         0.     
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  2:r11      2:r12      3:r4       3:r5       3:r6       3:r7      
+  r value    1.5325     9.6623    16.3327     4.5720    44.7674m   16.3327 
+  v drop     0.         0.       296.5612p   83.0162p    1.0342p    3.1830p
+  current    0.         0.        18.1575p   18.1575p   23.1022p  194.8847f
+  power      0.         0.       5.385e-21  1.507e-21  2.389e-23  6.203e-25
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  3:r8       3:r9       3:r10      3:r11      3:r12      3:r13     
+  r value  156.2790m   18.3830     5.4442   234.4190m  127.7910m   26.7115m
+  v drop     3.5799p    3.5826p    3.1856p    5.2327p   -2.3958p   -6.3851f
+  current   22.9073p  194.8847f  585.1378f   22.3222p  -18.7475p -239.0383f
+  power    8.201e-23  6.982e-25  1.864e-24  1.168e-22  4.491e-23  1.526e-27
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  3:r14      3:r15      3:r16      3:r17      3:r18      3:r19     
+  r value   26.7115m   16.3327   122.7440m   18.3830     5.4442    27.5745 
+  v drop   500.7729f    5.7313p   29.3405f   -4.3942p    1.3014p   21.5087p
+  current   18.7475p  350.9123f  239.0383f -239.0383f  239.0383f  780.0224f
+  power    9.388e-24  2.011e-24  7.014e-27  1.050e-24  3.111e-25  1.678e-23
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  3:r20      3:r21      3:r22      3:r23      3:r24      4:r3      
+  r value   18.3638     5.4442    35.1795m   10.2777m  276.3160m   85.4545m
+  v drop    10.8337p   19.4616p -638.7723f  186.6175f   -5.0172p   -1.6855p
+  current  589.9505f    3.5747p  -18.1575p   18.1575p  -18.1575p  -19.7244p
+  power    6.391e-24  6.957e-23  1.160e-23  3.389e-24  9.110e-23  3.325e-23
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  4:r4       4:r5       4:r6       4:r7       4:r8       4:r9      
+  r value   35.0000m   16.3327     4.5900    35.0000m   16.3327     4.5900 
+  v drop   690.1146f  322.0226p   90.4987p -690.7808f -322.2413p  -90.5600p
+  current   19.7176p   19.7164p   19.7165p  -19.7366p  -19.7298p  -19.7298p
+  power    1.361e-23  6.349e-21  1.784e-21  1.363e-23  6.358e-21  1.787e-21
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  5:r6       5:r7       5:r8       5:r9       5:r10      5:r11     
+  r value    2.4324    13.2552     1.6188    14.6757    32.5000     8.5690 
+  v drop     0.         1.1102f    0.         1.1102f    0.       222.0446a
+  current    0.        83.7575a    0.        75.6504a    0.        25.9126a
+  power      0.         0.         0.         0.         0.         0.     
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  5:r12      5:r13      5:r14      6:r6       6:r7       6:r8      
+  r value   22.0000     8.5690    58.7500    34.8205m   16.3327     4.5900 
+  v drop   666.1338a  444.0892a -222.0446a -803.8015f -377.1046p -105.9779p
+  current   30.2788a   51.8253a   -3.7795a  -23.0841p  -23.0889p  -23.0889p
+  power      0.         0.         0.       1.856e-23  8.707e-21  2.447e-21
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  6:r9       6:r10      6:r11      6:r12      6:r13      6:r14     
+  r value   34.6796m    8.1663     2.2950    34.5995m    8.1663     2.2950 
+  v drop  -222.0446a  222.0446a  666.1338a  798.9165f  188.5556p   52.9903p
+  current   -6.4027f   27.1902a  290.2544a   23.0904p   23.0893p   23.0894p
+  power      0.         0.         0.       1.845e-23  4.354e-21  1.224e-21
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  6:r15      6:r16      6:r17      6:r18      6:r19      6:r20     
+  r value   17.8978m   84.7368m   21.6598m  154.4440m   24.7527m   41.2345m
+  v drop  -413.0030f    1.9560p  499.6004f   -3.5631p -571.0987f  951.4611f
+  current  -23.0756p   23.0831p   23.0658p  -23.0708p  -23.0722p   23.0744p
+  power    9.530e-24  4.515e-23  1.152e-23  8.220e-23  1.318e-23  2.195e-23
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  6:r21      7:r10      7:r11      7:r12      7:r13      7:r14     
+  r value  215.1580m   27.3073m    8.1663    24.4186m    9.1915    16.3327 
+  v drop    -4.9636p  626.3878f -881.5171f -560.4406f -992.0953f -686.7840f
+  current  -23.0695p   22.9385p -107.9451f  -22.9514p -107.9363f  -42.0496f
+  power    1.145e-22  1.437e-23  9.516e-26  1.286e-23  1.071e-25  2.888e-26
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  7:r15      7:r16      7:r17      7:r18      7:r19      7:r20     
+  r value  156.2790m  122.0930m   27.0100m   27.0100m   16.3327   127.6280m
+  v drop    -3.5814p    2.8013p   -1.1102f -619.5044f    1.2652p    6.4393f
+  current  -22.9164p   22.9441p  -41.1041f  -22.9361p   77.4649f   50.4536f
+  power    8.207e-23  6.427e-23    0.       1.421e-23  9.801e-26  3.249e-28
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  7:r21      7:r22      7:r23      7:r24      7:r25      7:r26     
+  r value   18.3830     8.1663     8.1663     2.2950     8.1663     2.2860 
+  v drop  -870.6369f  387.0237f    1.1102f  666.1338a -188.5583p  -52.7827p
+  current  -47.3610f   47.3925f  135.9509a  290.2544a  -23.0897p  -23.0895p
+  power    4.123e-26  1.834e-26    0.         0.       4.354e-21  1.219e-21
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  7:r27      7:r28      7:r29      7:r30      7:r31      7:r32     
+  r value   18.3830    18.3638     5.4442    86.1538m   35.0000m   27.3073m
+  v drop    -2.7573p    2.2928p  137.2236f    1.9893p -808.0203f  627.0540f
+  current -149.9946f  124.8561f   25.2053f   23.0901p  -23.0863p   22.9629p
+  power    4.136e-25  2.863e-25  3.459e-27  4.593e-23  1.865e-23  1.440e-23
+
+ subckt   xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm xname.x_pm
+ element  7:r33      7:r34      7:r35      7:r36      7:r37      7:r38     
+  r value  102.5580m    9.7335m  192.0510m   34.9114m    3.0127m   81.6962m
+  v drop    -2.3561p  444.0892a  -15.0990f    2.4425f -222.0446a    5.3291f
+  current  -22.9735p   45.6250f  -78.6199f   69.9626f  -73.7038f   65.2303f
+  power    5.413e-23    0.       1.187e-27  1.709e-28    0.       3.476e-28
+
+ subckt   xname.x_pm xname.x_pm
+ element  7:r39      7:r40     
+  r value   10.0036m  194.5450m
+  v drop  -231.1484f    4.4929p
+  current  -23.1065p   23.0941p
+  power    5.341e-24  1.038e-22
+
+
+
+ **** mosfets
+
+
+ subckt   xname      xname      xname      xname     
+ element  1:m0       1:m1       1:m2       1:m3      
+ model    0:n_18.1   0:n_18.1   0:p_18.1   0:p_18.1  
+ region       Cutoff     Cutoff     Linear     Cutoff
+  id        16.5854p   21.0608p  -23.0893p    5.0616a
+  ibs     -4.615e-26 -163.2538a  2.555e-26  4.782e-24
+  ibd     -163.2538a -186.9210a  4.757e-24 -1.541e-26
+  vgs     -398.1634p  227.9092m   -1.8000    56.2455n
+  vds        1.5721   227.9091m  -55.7432n   56.2426n
+  vbs     -368.8549p   -1.5721   252.4203p   56.2379n
+  vth      436.9853m  646.0287m -535.0900m -535.0900m
+  vdsat     56.0150m   60.4694m -986.8951m  -56.7860m
+  vod     -436.9853m -418.1194m   -1.2649   535.0900m
+  beta       1.0151m  999.4672u  448.9413u  564.9983u
+  gam eff  507.4459m  540.5083m  557.0847m  557.0847m
+  gm       536.9330p  703.4871p   11.2918p  130.0041a
+  gds       13.8616p   21.9746p  414.9242u   89.9956p
+  gmb       68.8382p   88.8526p    6.1035p   48.1832a
+  cdtot    671.0456a  655.6010a    3.1209f    1.4848f
+  cgtot    566.8137a  486.1694a    2.2411f    1.1679f
+  cstot    894.8204a  671.0460a    3.0189f    1.4848f
+  cbtot      1.3561f    1.0362f    2.7059f    2.7028f
+  cgs      194.1562a  194.1531a    1.1365f  358.7011a
+  cgd      194.1500a  194.1500a    1.0943f  358.7132a
+
+
+
+
+          ***** job concluded
+ ******  
+ *** testbench ***
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+ cpu MHz	: 1596.000
+  
+ OS:
+ Linux version 2.6.32-696.20.1.el6.x86_64 (mockbuild@x86_64_01.bsys.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Fri Jan 26 17:51:45 UTC 2018
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ****** Statistics of Ignored Elements ******
+  Capacitors      :       1
+
+  ******  Circuit Statistics  ******
+  # nodes       =      99 # elements   =     133
+  # resistors   =      92 # capacitors =      33 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       4
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       4 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1          18
+  transient          0.04        3001         424         157 rev=        15
+  readin             0.03
+  errchk             0.01
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        285.84 megabytes
+           total cpu time            0.08 seconds
+           total elapsed time        0.33 seconds
+           job started at     17:30:35 05/18/2018
+           job ended   at     17:30:36 05/18/2018
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.28(s)

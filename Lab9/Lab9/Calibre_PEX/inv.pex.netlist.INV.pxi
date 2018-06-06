@@ -1,0 +1,7 @@
+* File: inv.pex.netlist.INV.pxi
+* Created: Wed May 23 17:29:50 2018
+* 
+x_PM_INV%VIN N_VIN_M0_g N_VIN_M1_g VIN PM_INV%VIN
+x_PM_INV%GND! N_GND!_M0_b N_GND!_M0_s GND! PM_INV%GND!
+x_PM_INV%VDD! N_VDD!_M1_b N_VDD!_M1_s VDD! PM_INV%VDD!
+x_PM_INV%VOUT N_VOUT_M1_d N_VOUT_M0_d VOUT PM_INV%VOUT

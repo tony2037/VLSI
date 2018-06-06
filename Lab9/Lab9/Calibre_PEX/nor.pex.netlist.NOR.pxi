@@ -1,0 +1,9 @@
+* File: nor.pex.netlist.NOR.pxi
+* Created: Fri May 18 21:25:56 2018
+* 
+x_PM_NOR%X X N_X_M0_g N_X_M2_g PM_NOR%X
+x_PM_NOR%VDD! N_VDD!_M2_b N_VDD!_M2_s VDD! PM_NOR%VDD!
+x_PM_NOR%3 N_3_M2_d N_3_M3_s PM_NOR%3
+x_PM_NOR%Y Y N_Y_M1_g N_Y_M3_g PM_NOR%Y
+x_PM_NOR%GND! N_GND!_M0_b N_GND!_M0_s N_GND!_M1_d GND! PM_NOR%GND!
+x_PM_NOR%VOUT VOUT N_VOUT_M3_d N_VOUT_M0_d N_VOUT_M1_s PM_NOR%VOUT

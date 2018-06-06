@@ -1,0 +1,9 @@
+***inverter netlist***
+
+.subckt inv Vin Vout VDD! GND!
+**********************
+* write your design here ~*
+MpMos Vout Vin VDD! VDD! p_18 W=1u L=0.18u
+MnMos Vout Vin GND! GND! n_18 W=0.5u L=0.18u
+**********************
+.ends

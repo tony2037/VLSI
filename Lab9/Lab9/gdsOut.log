@@ -1,0 +1,75 @@
+       ###############################################
+       ##                                           ##
+       ##    FileName:  gdsOut.log                  ##
+       ##    GenDate :   6-Jun-2018   15:23:06      ##
+       ##                                           ##
+       ##    Laker:  2016.12 (Linux x86_64/64bit) 11/25/2016  ##
+       ##############################################N
+
+Command: gdsOut -64 -SkipWarnNo 100 -keepPCell off -s Preserve -label Preserve -T "half_adder" -filterAllSysLayer "All" -reduceMCell off -precisionForMag 5 -reduceDevice off -filterText off -convertPolyText off -pathToPolygon off -purposeMap on -designIntention off -Ref -OutAbsCell Off -SmashMCell ExpCont -IoLayerMapMode Map -Vm 1024 -o /home/user2/vlsi18/vlsi1812/Lab9/Lab9/Calibre_PEX/half_adder.calibre.db Lab9
+Host/OS: vlsicad9   Linux 2.6.32-696.28.1.el6.x86_64
+
+
+##### Stream Cells #####
+
+   1.half_adder              2.MCELL_CON_10741652      3.MCELL_PCO_935178     
+   4.MCELL_CON_10671218      5.MCELL_PCO_1101057       6.MCELL_PCO_1172197    
+   7.MCELL_PCO_1019377    
+
+
+##### Stream Error File(gdsOut.err) #####
+
+ All cells have no fatal,warn,info message.
+
+
+##### Stream Summary #####
+
+                   Resort Primary Cell(s)
+
+--------------------------------------------------------------------------
+   1.half_adder           
+
+
+                   Resort Cell(s) Summary
+
+cellName     #cInst  #array    #rect    #poly    #path    #text  bBox(um)
+--------------------------------------------------------------------------------------------------
+MCELL_CON_10671218       1       0        2        0        0        0 (-0.125,-0.125) (0.375,0.375)
+MCELL_CON_10741652       1       0        2        0        0        0 (-0.120,-0.120) (0.350,0.350)
+MCELL_PCO_1019377       0       0        1        0        0        0 (0.000,0.000) (0.250,0.250)
+MCELL_PCO_1101057       0       0        1        0        0        0 (0.000,0.000) (0.230,0.230)
+MCELL_PCO_1172197       0       0        1        0        0        0 (0.000,0.000) (0.230,0.230)
+MCELL_PCO_935178       0       0        1        0        0        0 (-0.115,-0.115) (0.115,0.115)
+half_adder       28      21      234        0        0        6 (-39.785,-15.625) (100.340,18.055)
+
+
+                   Resort Layer(s) Summary
+
+Laker                Stream
+layerName   purpose  layerNo  dataType    #rect    #poly    #path    #text
+--------------------------------------------------------------------------
+DIFF        drawing        1        0        22        0        0        0
+NW          drawing        3        0         5        0        0        0
+PIMP        drawing       11        0        11        0        0        0
+NIMP        drawing       12        0        11        0        0        0
+CONT        drawing       39        0        52        0        0        0
+PO1         drawing       41        0        31        0        0        0
+ME1         drawing       46        0        88        0        0        0
+VIA1        drawing       47        0         3        0        0        0
+ME2         drawing       48        0        19        0        0        0
+M1_TEXT     drawing      101        0         0        0        0        5
+M2_TEXT     drawing      102        0         0        0        0        1
+
+
+
+
+No illegal shape is filtered since the option "Filter-Illegal-Shapes" is turned off
+
+ EXE Start Time =  6-Jun-2018   15:23:06                  
+ EXE Stop  Time =  6-Jun-2018   15:23:06                  
+
+ #Elapsed Time  = 00:00:00
+ #CPU Time      = 00:00:00
+
+ #Memory 379784 K,Peak 379784 K
+ Total #Fatal = 0, #Warn = 0

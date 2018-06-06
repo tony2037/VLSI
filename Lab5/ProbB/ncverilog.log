@@ -1,0 +1,49 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Apr 17, 2018 at 15:08:26 CST
+ncverilog
+	regfile_sipo_tb.v
+	+access+r
+	+define+FSDB
+file: regfile_sipo_tb.v
+	module worklib.regfile_sipo_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.regfile_sipo:v <0x5a878575>
+			streams:   6, words: 25792
+		worklib.regfile_sipo_tb:v <0x1ae08ef9>
+			streams:   7, words: 18939
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:               13      13
+		Scalar wires:             4       -
+		Vectored wires:           6       -
+		Always blocks:            2       2
+		Initial blocks:           3       3
+		Pseudo assignments:       2       2
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.regfile_sipo_tb:v
+Loading snapshot worklib.regfile_sipo_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'regfile_sipo.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+                   0  reg_write = 0, src1 = REG[  0] =          x, src2 = REG[         1] =          x, src3 = REG[         2] =          x 
+                   5  reg_write = 0, src1 = REG[  0] =          0, src2 = REG[         1] =          0, src3 = REG[         2] =          0 
+                  16  reg_write = 1, src1 = REG[  0] =          0, src2 = REG[         1] =          0, src3 = REG[         2] =          0 
+                 116  reg_write = 0, src1 = REG[  0] =          0, src2 = REG[         1] =          0, src3 = REG[         2] =          0 
+                 125  reg_write = 0, src1 = REG[  0] = 4294901760, src2 = REG[         1] = 4294901761, src3 = REG[         2] = 4294901762 
+                 126  reg_write = 0, src1 = REG[120] = 4294901760, src2 = REG[       121] = 4294901761, src3 = REG[       122] = 4294901762 
+Simulation complete via $finish(1) at time 326 NS + 0
+./regfile_sipo_tb.v:75 #200 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 17, 2018 at 15:08:27 CST  (total: 00:00:01)

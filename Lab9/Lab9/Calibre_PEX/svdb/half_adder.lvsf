@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/user2/vlsi18/vlsi1812/Lab9/Lab9/Calibre_PEX
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT half_adder.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/user2/vlsi18/vlsi1812/Lab9/Lab9/half_adder.sp
+lvs_LvsOutFile RULES_FILE /home/user2/vlsi18/vlsi1812/Lab9/Lab9/Calibre_PEX/_Rule.rce_
+lvs_LvsRunTimes 1528269788 1528269788

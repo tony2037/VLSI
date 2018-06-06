@@ -1,0 +1,46 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Mar 14, 2018 at 17:07:25 CST
+ncverilog
+	test_tb.v
+	+access+r
+file: test_tb.v
+	module worklib.test2:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.test2:v <0x62a1774f>
+			streams:   0, words:     0
+		worklib.test_tb:v <0x3a142fc9>
+			streams:   7, words:  7950
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Registers:                3       3
+		Scalar wires:             5       -
+		Initial blocks:           4       4
+		Cont. assignments:        0       3
+		Pseudo assignments:       2       2
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.test_tb:v
+Loading snapshot worklib.test_tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux x86_64/64bit, 11/12/2017
+(C) 1996 - 2017 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'test.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+                   0in1=0 , in2=1 , out1=0 , out2=1, out3=1
+                  10in1=1 , in2=1 , out1=0 , out2=1, out3=0
+                  20in1=0 , in2=0 , out1=1 , out2=0, out3=0
+                  30in1=1 , in2=0 , out1=1 , out2=1, out3=1
+                  40in1=1 , in2=1 , out1=0 , out2=1, out3=0
+Simulation complete via $finish(1) at time 60 NS + 0
+./test_tb.v:30   #20  $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Mar 14, 2018 at 17:07:25 CST  (total: 00:00:00)

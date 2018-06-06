@@ -1,0 +1,26 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(18Apr2018:18:53:24):( ncverilog ./system.v )
+s2::(18Apr2018:18:54:47):( ncverilog ./system.v )
+s3::(18Apr2018:18:56:14):( ncverilog ./system.v )
+s4::(20Apr2018:14:45:51):( ncverilog system_tb.v )
+s5::(20Apr2018:14:57:17):( ncverilog MixColor.v )
+s6::(20Apr2018:14:57:32):( ncverilog MixColor.v )
+s7::(20Apr2018:15:18:48):( ncverilog MixColor.v )
+s8::(20Apr2018:15:19:19):( ncverilog MixColor.v )
+s9::(20Apr2018:15:21:24):( ncverilog MixColor.v )
+s10::(20Apr2018:16:19:43):( ncverilog Controller.v )
+s11::(20Apr2018:16:20:24):( ncverilog Controller.v )
+s12::(20Apr2018:16:21:39):( ncverilog Controller.v )
+s13::(20Apr2018:16:22:17):( ncverilog Controller.v )
+s14::(20Apr2018:16:22:39):( ncverilog Controller.v )
+s15::(20Apr2018:16:23:02):( ncverilog Controller.v )
+s16::(20Apr2018:16:23:36):( ncverilog Controller.v )
+s17::(20Apr2018:16:25:44):( ncverilog Controller.v )
+s18::(20Apr2018:16:34:09):( ncverilog system_tb.v )
+s19::(20Apr2018:16:53:24):( ncverilog system_tb.v +define+syb )
+s20::(20Apr2018:16:53:29):( ncverilog system_tb.v +define+syn )
+s21::(24Apr2018:12:41:57):( ncverilog ./system_tb.v +define+syn +access+r )
+s22::(24Apr2018:12:58:28):( ncverilog system_tb.v +define+FSDB +access+r )
